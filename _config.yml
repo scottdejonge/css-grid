@@ -1,0 +1,39 @@
+# Site Settings
+title: CSS Grid
+email: dejonge.scott@gmail.com
+description: ""
+url: 
+
+# Repo
+repo: https://github.com/scottdejonge/css-grid
+
+# Build Settings
+encoding: UTF-8
+timezone: UTC
+
+# Permalinks
+permalink: /:title/
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# Server
+baseurl: ""
+destination: _site
+host: 0.0.0.0
+port: 6001
+
+# Includes
+include: []
+
+# Excludes
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - commit-hook.sh
+  - package.json
